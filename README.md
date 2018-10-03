@@ -1,8 +1,3 @@
 # project
-Project
 
-Has222s ?
-
-Any suggestions?
-
-Get gud
+Suggestions for what to do welcome.
