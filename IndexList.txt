@@ -1,0 +1,23 @@
+#Smallest Multiple
+#What is the smallest positive no. that is evenly divisible by 1-20
+#Just a Test
+
+smol = 2520
+d = False
+i = 19
+n = 0
+
+while i > 2:
+	if i == 3:
+		print(smol)
+		print("finished")
+		i -= 1
+	elif smol%i == 0:
+		i-=1
+		if i == 4:
+			n=i
+			print(n)
+			print(smol)
+	else:
+		smol += 20
+		i = 19
