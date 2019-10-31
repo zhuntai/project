@@ -1,1 +1,25 @@
 hacktoberfest please!
+
+Updated
+#Euler P2
+# a is 1
+# b is 2
+# c = a+b
+# d = d +c 
+# a = b
+# b = c
+# a = 
+
+initial = 1
+addition = 2
+result = 0
+answer = 0
+
+while result < 4000000:
+	result = initial + addition
+	if result % 2 == 0:
+		answer = answer + result
+	initial = addition
+	addition = result
+
+print(answer+2)
